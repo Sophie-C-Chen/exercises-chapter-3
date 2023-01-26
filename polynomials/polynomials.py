@@ -82,6 +82,7 @@ class Polynomial:
             return Polynomial(coefs)
         
         elif isinstance(other, Polynomial):
+            # [26/01/23] Add code here giving the product of two polynomials.
 
         else:
             return NotImplemented
